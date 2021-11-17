@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211021T184451Z
+DTSTART;TZID=America/Los_Angeles:20211022T213000
+DTEND;TZID=America/Los_Angeles:20211022T233000
+SUMMARY:Desi Engineers
+UID:20211021T184451Z-82289188867@fe80:0:0:0:7:7cff:feb0:ba34ens5
+TZID:America/Los_Angeles
+DESCRIPTION:Tushar Aggarwal is inviting you to a scheduled Zoom meeting.\
+ n\nJoin Zoom Meeting\nhttps://utoronto.zoom.us/j/82289188867\n\nMeeting 
+ ID: 822 8918 8867\nPasscode: 010311\nOne tap mobile\n+17789072071\,\,822
+ 89188867#\,\,\,\,*010311# Canada\n+14388097799\,\,82289188867#\,\,\,\,*0
+ 10311# Canada\n\nDial by your location\n        +1 778 907 2071 Canada\n
+         +1 438 809 7799 Canada\n        +1 587 328 1099 Canada\n        
+ +1 613 209 3054 Canada\n        +1 647 374 4685 Canada\n        +1 647 5
+ 58 0588 Canada\nMeeting ID: 822 8918 8867\nPasscode: 010311\nFind your l
+ ocal number: https://utoronto.zoom.us/u/kc2OtJd0Xv\n\nJoin by SIP\n82289
+ 188867@zoomcrc.com\n\nJoin by H.323\n162.255.37.11 (US West)\n162.255.36
+ .11 (US East)\n69.174.57.160 (Canada Toronto)\n65.39.152.160 (Canada Van
+ couver)\nMeeting ID: 822 8918 8867\nPasscode: 010311\n\nJoin by Skype fo
+ r Business\nhttps://utoronto.zoom.us/skype/82289188867\n\n
+LOCATION:https://utoronto.zoom.us/j/82289188867
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
